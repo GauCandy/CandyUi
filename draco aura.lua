@@ -1,14 +1,7 @@
 -- Đọc các giá trị từ môi trường (nếu có), hoặc sử dụng giá trị mặc định
 local CIRCLE_RADIUS = AIM or 100 -- Bán kính của aim bot
-local MAX_DISTANCE =  or 800 -- Khoảng cách tấn công tối đa
+local MAX_DISTANCE = DISTANCE or 800 -- Khoảng cách tấn công tối đa
 local AUTO_ATTACK_PLAYER = ATTACK_PLAYER or false -- Mặc định không tự động tấn công player
-
--- Phần còn lại của mã
-print("CIRCLE_RADIUS:", CIRCLE_RADIUS)
-print("MAX_DISTANCE:", MAX_DISTANCE)
-print("AUTO_ATTACK_PLAYER:", AUTO_ATTACK_PLAYER)
-
--- (Phần mã gốc tiếp tục từ đây)
 
 local tool = Instance.new("Tool")
 tool.Name = "Draco aura"
