@@ -16,7 +16,7 @@ getgenv().settings = {
     -- 1 Player&Npc
     -- 2 Chỉ Player
     -- 3 chỉ Npc
-    Mode = 3 
+    Mode = 1
 }
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/GauCandy/CandyUi/refs/heads/main/draco%20aura.lua'),true))()
 
