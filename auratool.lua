@@ -1,4 +1,5 @@
 getgenv().settings = {
+    Anti_Ban = true,
     -- vòng tròn aim bot
     Aimbot_FOV_Radius = 100,
     -- màu vòng tròn ngoài
@@ -19,4 +20,3 @@ getgenv().settings = {
     Mode = 1
 }
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/GauCandy/CandyUi/refs/heads/main/draco%20aura.lua'),true))()
-
